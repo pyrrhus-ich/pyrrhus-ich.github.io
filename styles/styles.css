@@ -1,0 +1,30 @@
+/* Enthält die Styleelemente der Hauptseite */
+
+
+
+ul{
+   
+    border-right: solid lightgrey 2px ;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#leftLink{
+    border-left: solid  lightgrey 2px ;
+}
+
+#ueberschriftUnterseiten{
+
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+address{
+    text-align: center;
+    font-size: x-large;
+}
+
+
+
+b

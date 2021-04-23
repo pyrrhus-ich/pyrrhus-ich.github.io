@@ -1,0 +1,16 @@
+header{
+    top: 0pt;
+    background-color: rgb(240, 214, 130);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+   
+}
+
+nav{
+    background-color: rgb(243, 228, 180);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}

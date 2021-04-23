@@ -1,0 +1,9 @@
+/* Only for the Main section of the index.html*/
+
+#indexMain{
+    
+    text-align: center;
+    background-image: url("../image/Grosse\ Eibsee_Ausschnitt.png");
+   color:white;
+}
+    
