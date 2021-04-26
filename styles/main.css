@@ -63,7 +63,28 @@ article{
   font-size: 1.5em;
 }
 
+#table{
+  display: flex; /* enthält thead, tbody, tfoot */
+}
 
+#tbody{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#trow{
+  display: flex;
+
+}
+
+#rhead{
+  width: 5em;
+}
+
+#rcontent{
+  padding-left: 2em;
+}
 
 /*
  * Remove text-shadow in selection highlight:
