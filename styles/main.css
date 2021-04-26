@@ -20,16 +20,15 @@ body{
   
     display: flex; /* enthält header, Main , Footer */
     flex-direction: column;
-    margin: 0 auto;
-    width: 95vw;
-    height: 100vh;
+ 
+    height: 95vh;
     
 }
 
 header{
     background-image: url(../image/Grosse\ Eibsee_Ausschnitt_kleiner.png);
    
-   height: 10em;
+   height: 12vh;
     
 }
 
@@ -37,24 +36,27 @@ main{
     display: flex; /* enthält Nav und Article */
     flex-direction: row wrap;
     max-height: 80vh;
+    flex: 1;
   
    
     
 }
 
 footer{
-
+  
   text-align: end;
   padding-right: 2em;
+  height: 4vh;
+
   display: flex;
   justify-content: end;
-  align-content: center;
+  align-content:space-around
 }
 
 nav{
   flex: 1 1 0%;
   justify-content: flex-start;
-  font-size: 2em;
+  font-size: 1.5em;
  
 }
 
