@@ -13,27 +13,54 @@
 
 html {
   color: #222;
-  font-size: 1em;
+  font-size: 1em; /* entspricht 16px */
   line-height: 1.4;
 }
 body{
-    display: flex;
+  
+    display: flex; /* enthält header, Main , Footer */
     flex-direction: column;
     margin: 0 auto;
-    max-width: 95em;
+    width: 95vw;
+    height: 98vh;
+    
 }
 
 header{
     background-image: url(../image/Grosse\ Eibsee_Ausschnitt_kleiner.png);
-   height: 10em;
-    border: solid red;
-
+    height: 10em;
+    flex: 2 1 0%;
 }
 
 main{
-    display: flex;
-    flex-direction: row;
-    background-color: azure;
+    display: flex; /* enthält Nav und Article */
+    flex-direction: row wrap;
+    flex: 15 1 0%;
+   
+    
+}
+
+footer{
+  flex: 0.5 1 0%;
+  text-align: end;
+  padding-right: 2em;
+  display: flex;
+  justify-content: end;
+  align-content: center;
+}
+
+nav{
+  flex: 1 1 0%;
+  justify-content: flex-start;
+  font-size: 2em;
+ 
+}
+
+article{
+  flex: 3 1 0%;
+  padding: 2em 5em;
+ 
+  font-size: 1.5em;
 }
 
 
