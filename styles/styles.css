@@ -2,15 +2,33 @@
 
 
 
-ul{
+
+/* CSS für Navigationsleiste und footer */
+nav{
+   
+   /*display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;*/
+    border: solid 5px red;
+}
+
+nav>ul{
    
     border-right: solid lightgrey 2px ;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-#leftLink{
+nav>#leftLink{
     border-left: solid  lightgrey 2px ;
+}
+
+/* Ende Navigationsleiste und footer*/
+
+/* Ausrichtung footer am unterem Bildschirmrand*/
+footer{
+
 }
 
 #ueberschriftUnterseiten{
@@ -27,4 +45,15 @@ address{
 
 
 
-b
+
+
+    main{
+        text-align: center;
+    }
+        
+    /* Größe des Buttons auf der Vorschaltseite Index.html */
+    #startbutton{
+        height: 150px;
+        width: 550px;
+        font-size: x-large;
+    }
